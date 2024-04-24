@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --wwwamazoncom-inter-regular-1144: Inter;
+
+  /* font sizes */
+  --wwwamazoncom-inter-regular-1144-size: 11.4px;
+  --wwwamazoncom-inter-regular-1106-size: 11.1px;
+  --wwwamazoncom-inter-regular-1125-size: 11.3px;
+  --wwwamazoncom-inter-regular-1163-size: 11.6px;
+  --wwwamazoncom-inter-regular-12-size: 12px;
+  --wwwamazoncom-inter-regular-1181-size: 11.8px;
+  --wwwamazoncom-inter-regular-1088-size: 10.9px;
+  --wwwamazoncom-inter-regular-1239-size: 12.4px;
+  --wwwamazoncom-inter-regular-1302-size: 13px;
+  --wwwamazoncom-inter-regular-127-size: 12.7px;
+  --wwwamazoncom-inter-regular-1378-size: 13.8px;
+  --wwwamazoncom-inter-regular-1323-size: 13.2px;
+  --wwwamazoncom-inter-regular-1313-size: 13.1px;
+  --wwwamazoncom-inter-regular-1356-size: 13.6px;
+  --wwwamazoncom-inter-regular-1345-size: 13.5px;
+  --font-size-base-5: 15.5px;
+  --wwwamazoncom-inter-regular-1334-size: 13.3px;
+  --wwwamazoncom-inter-bold-1525-size: 15.3px;
+  --wwwamazoncom-inter-bold-15-size: 15px;
+  --font-size-base-4: 15.4px;
+  --font-size-3xl-7: 22.7px;
+  --font-size-lg: 18px;
+  --wwwamazoncom-inter-bold-14-size: 14px;
+  --font-size-base-1: 15.1px;
+  --font-size-mini-8: 14.8px;
+  --font-size-sm-7: 13.7px;
+  --font-size-smi-9: 12.9px;
+  --font-size-sm-9: 13.9px;
+  --wwwamazoncom-inter-regular-1116-size: 11.2px;
+  --font-size-smi-5: 12.5px;
+  --font-size-2xs-5: 10.5px;
+
+  /* Colors */
+  --wwwamazoncom-nero: #fff;
+  --wwwamazoncom-oxford-blue1: #37475a;
+  --wwwamazoncom-oxford-blue: #3a4553;
+  --wwwamazoncom-ebony-clay: #232f3e;
+  --wwwamazoncom-gunsmoke: #888c8c;
+  --wwwamazoncom-oslo-gray: #848688;
+  --wwwamazoncom-boulder: #767676;
+  --wwwamazoncom-bunker: #131a22;
+  --wwwamazoncom-bunker1: #131921;
+  --wwwamazoncom-cod-gray: #111;
+  --wwwamazoncom-woodsmoke: #0f1111;
+  --color-gray-100: rgba(0, 0, 0, 0.03);
+  --wwwamazoncom-nero-02: rgba(255, 255, 255, 0);
+  --wwwamazoncom-mercury: #e6e6e6;
+  --wwwamazoncom-alto: #ddd;
+  --wwwamazoncom-alto1: #d9d9d9;
+  --color-gainsboro-100: #d6d9d9;
+  --wwwamazoncom-iron: #d5d9d9;
+  --wwwamazoncom-gray-chateau: #a7acb2;
+  --wwwamazoncom-dusty-gray: #999;
+  --wwwamazoncom-sirocco: #6f7373;
+  --wwwamazoncom-dove-gray: #666;
+  --wwwamazoncom-corduroy: #565959;
+  --wwwamazoncom-emperor: #555;
+  --wwwamazoncom-silver: #ccc;
+  --wwwamazoncom-milano-red: #b12704;
+  --wwwamazoncom-black: #000;
+  --wwwamazoncom-blue-lagoon: #007185;
+  --wwwamazoncom-wild-sand: #f5f5f5;
+  --wwwamazoncom-black-haze: #f0f2f2;
+  --wwwamazoncom-fun-green: #ffa41c;
+  --wwwamazoncom-japanese-laurel: #ff8f00;
+  --wwwamazoncom-tangerine: #f08804;
+  --wwwamazoncom-silver1: #bbb;
+  --wwwamazoncom-green: #ffd814;
+  --wwwamazoncom-gold: #fcd200;
+  --wwwamazoncom-koromiko: #febd69;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-sm: 14px;
+  --gap-3xs: 10px;
+  --gap-5xs: 8px;
+  --gap-0: 0px;
+  --gap-8xs-7: 4.7px;
+  --gap-6xs: 7px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-10xs-3: 2.3px;
+  --padding-10xs: 3px;
+  --padding-7xs: 6px;
+  --padding-11xs-8: 1.8px;
+  --padding-6xs: 7px;
+  --padding-12xs-7: 0.7px;
+  --padding-12xs: 1px;
+  --padding-7xs-8: 5.8px;
+  --padding-11xs: 2px;
+  --padding-lg: 18px;
+  --padding-mid: 17px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-9xs: 4px;
+  --padding-3xs: 10px;
+  --padding-smi: 13px;
+  --padding-mini: 15px;
+  --padding-8xs: 5px;
+  --padding-12xs-4: 0.4px;
+  --padding-4xs: 9px;
+  --padding-sm: 14px;
+  --padding-9xs-2: 3.2px;
+  --padding-12xs-8: 0.8px;
+  --padding-221xl: 240px;
+  --padding-12xs-2: 0.2px;
+  --padding-lgi-9: 19.9px;
+  --padding-lgi: 19px;
+  --padding-145xl: 164px;
+  --padding-128xl: 147px;
+  --padding-136xl: 155px;
+  --padding-2xs: 11px;
+  --padding-xs: 12px;
+  --padding-129xl: 148px;
+  --padding-4xl: 23px;
+  --padding-7xs-4: 5.4px;
+  --padding-43xl: 62px;
+  --padding-10xs-4: 2.4px;
+  --padding-mini-8: 14.8px;
+  --padding-11xs-9: 1.9px;
+  --padding-2xl: 21px;
+  --padding-12xs-5: 0.5px;
+  --padding-125xl: 144px;
+  --padding-8xs-7: 4.7px;
+  --padding-7xs-3: 5.3px;
+  --padding-12xs-3: 0.3px;
+
+  /* Border radiuses */
+  --br-10xs: 3px;
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+  --br-11xs: 2px;
+  --br-10xs-5: 2.5px;
+  --br-6xs: 7px;
+}
